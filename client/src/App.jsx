@@ -1,13 +1,13 @@
-
+import React from 'react';
+import { Navbar } from "./components";
 
 const App = () => {
-  const [count, setCount] = useState(0)
-
   return (
-    <div class="flex w-full bg-cyan-950">
-      <div></div>
+    <div className="App">
+      <Navbar />
+      {/* Other components */}
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
